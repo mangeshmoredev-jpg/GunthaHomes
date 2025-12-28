@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Listings | GunthaHomes</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <a href="index.html">GunthaHomes</a>
+        <p class="tagline">Connecting you to homes that inspire.</p>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="">Home</a>
+        <a href="listings.html" class="active">Listings</a>
+        <a href="contact.html" class="">Contact</a>
+      </nav>
+      <div class="cta">
+        <a class="btn" href="contact.html">Schedule a Consult</a>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <main class="main-content">
+    
+<section class="section container">
+  <header class="section-header">
+    <h1>Available listings</h1>
+    <p>Use the filters to narrow down properties that match your wishlist.</p>
+  </header>
+
+  <form class="filter-form" method="get">
+    <div class="field">
+      <label for="city">City</label>
+      <input id="city" type="text" name="city" value="" placeholder="Any">
+    </div>
+    <div class="field">
+      <label for="state">State</label>
+      <select id="state" name="state">
+        <option value="">Any</option>
+        
+          <option value="AN" >Andaman and Nicobar Islands</option>
+        
+          <option value="AP" >Andhra Pradesh</option>
+        
+          <option value="AR" >Arunachal Pradesh</option>
+        
+          <option value="AS" >Assam</option>
+        
+          <option value="BR" >Bihar</option>
+        
+          <option value="CH" >Chandigarh</option>
+        
+          <option value="CT" >Chhattisgarh</option>
+        
+          <option value="DD" >Daman and Diu</option>
+        
+          <option value="DL" >Delhi</option>
+        
+          <option value="DN" >Dadra and Nagar Haveli and Daman and Diu</option>
+        
+          <option value="GA" >Goa</option>
+        
+          <option value="GJ" >Gujarat</option>
+        
+          <option value="HR" >Haryana</option>
+        
+          <option value="HP" >Himachal Pradesh</option>
+        
+          <option value="JK" >Jammu and Kashmir</option>
+        
+          <option value="JH" >Jharkhand</option>
+        
+          <option value="KA" >Karnataka</option>
+        
+          <option value="KL" >Kerala</option>
+        
+          <option value="LA" >Ladakh</option>
+        
+          <option value="LD" >Lakshadweep</option>
+        
+          <option value="MP" >Madhya Pradesh</option>
+        
+          <option value="MH" >Maharashtra</option>
+        
+          <option value="MN" >Manipur</option>
+        
+          <option value="ML" >Meghalaya</option>
+        
+          <option value="MZ" >Mizoram</option>
+        
+          <option value="NL" >Nagaland</option>
+        
+          <option value="OD" >Odisha</option>
+        
+          <option value="PB" >Punjab</option>
+        
+          <option value="PY" >Puducherry</option>
+        
+          <option value="RJ" >Rajasthan</option>
+        
+          <option value="SK" >Sikkim</option>
+        
+          <option value="TN" >Tamil Nadu</option>
+        
+          <option value="TS" >Telangana</option>
+        
+          <option value="TR" >Tripura</option>
+        
+          <option value="UP" >Uttar Pradesh</option>
+        
+          <option value="UT" >Uttarakhand</option>
+        
+          <option value="WB" >West Bengal</option>
+        
+      </select>
+    </div>
+    <div class="field">
+      <label for="property_type">Type</label>
+      <select id="property_type" name="property_type">
+        <option value="">Any</option>
+        
+          <option value="Apartment" >Apartment</option>
+        
+          <option value="Cabin" >Cabin</option>
+        
+          <option value="Condo" >Condo</option>
+        
+          <option value="Single Family" >Single Family</option>
+        
+          <option value="Townhouse" >Townhouse</option>
+        
+      </select>
+    </div>
+    <div class="field">
+      <label for="status">Status</label>
+      <select id="status" name="status">
+        <option value="">Any</option>
+        
+          <option value="For Sale" >For Sale</option>
+        
+          <option value="Under Construction" >Under Construction</option>
+        
+          <option value="Under Contract" >Under Contract</option>
+        
+      </select>
+    </div>
+    <div class="field">
+      <label for="min_price">Min price</label>
+      <input id="min_price" type="number" name="min_price" value="">
+    </div>
+    <div class="field">
+      <label for="max_price">Max price</label>
+      <input id="max_price" type="number" name="max_price" value="">
+    </div>
+    <div class="field">
+      <label for="beds">Beds</label>
+      <input id="beds" type="number" min="0" step="0.5" name="beds" value="">
+    </div>
+    <div class="field">
+      <label for="baths">Baths</label>
+      <input id="baths" type="number" min="0" step="0.5" name="baths" value="">
+    </div>
+    <div class="actions">
+      <button class="btn" type="submit">Apply filters</button>
+      <a class="btn outline" href="listings.html">Reset</a>
+    </div>
+  </form>
+
+  <div class="property-grid">
+    
+      <article class="property-card">
+  <a class="property-image" href="l-and-t-crestoria-panvel.html">
+    <span class="status">Under Construction</span>
+    <img src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8" alt="L &amp; T Crestoria Panvel">
+  </a>
+  <div class="property-body">
+    <h3><a href="l-and-t-crestoria-panvel.html">L &amp; T Crestoria Panvel</a></h3>
+    <p class="price">₹2,35,00,000</p>
+    <p class="meta">4 bd &middot; 3.5 ba &middot; 1700 sqft</p>
+    <p class="location">L&amp;T Realty Sales Gallery, Old Mumbai-Pune Highway, Bhokarpada, Panvel, Mumbai, MH</p>
+    <div class="property-actions">
+      <a class="btn secondary" href="l-and-t-crestoria-panvel.html">View details</a>
+    </div>
+  </div>
+</article>
+    
+      <article class="property-card">
+  <a class="property-image" href="lodha-hinjewadi-phase-3.html">
+    <span class="status">For Sale</span>
+    <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" alt="Lodha Hinjewadi Phase 3">
+  </a>
+  <div class="property-body">
+    <h3><a href="lodha-hinjewadi-phase-3.html">Lodha Hinjewadi Phase 3</a></h3>
+    <p class="price">₹1,92,00,000</p>
+    <p class="meta">3.5 bd &middot; 3 ba &middot; 1300 sqft</p>
+    <p class="location">Phase 3, Hinjewadi Rajiv Gandhi Infotech Park, Pune, MH</p>
+    <div class="property-actions">
+      <a class="btn secondary" href="lodha-hinjewadi-phase-3.html">View details</a>
+    </div>
+  </div>
+</article>
+    
+      <article class="property-card">
+  <a class="property-image" href="hiranandani-golden-willows-panvel.html">
+    <span class="status">Under Construction</span>
+    <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5" alt="Hiranandani Golden Willows">
+  </a>
+  <div class="property-body">
+    <h3><a href="hiranandani-golden-willows-panvel.html">Hiranandani Golden Willows</a></h3>
+    <p class="price">₹1,58,00,000</p>
+    <p class="meta">3 bd &middot; 3 ba &middot; 1280 sqft</p>
+    <p class="location">Hiranandani Fortune City, Panvel, Mumbai, MH</p>
+    <div class="property-actions">
+      <a class="btn secondary" href="hiranandani-golden-willows-panvel.html">View details</a>
+    </div>
+  </div>
+</article>
+    
+      <article class="property-card">
+  <a class="property-image" href="dosti-greenscape-hadapsar.html">
+    <span class="status">Under Construction</span>
+    <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" alt="Dosti Greenscape Hadapsar">
+  </a>
+  <div class="property-body">
+    <h3><a href="dosti-greenscape-hadapsar.html">Dosti Greenscape Hadapsar</a></h3>
+    <p class="price">₹1,32,00,000</p>
+    <p class="meta">4 bd &middot; 3 ba &middot; 1395 sqft</p>
+    <p class="location">Dosti Greenscapes, Solapur Road, near Kirloskar Company, Hadapsar Industrial Estate, Pune, MH</p>
+    <div class="property-actions">
+      <a class="btn secondary" href="dosti-greenscape-hadapsar.html">View details</a>
+    </div>
+  </div>
+</article>
+    
+      <article class="property-card">
+  <a class="property-image" href="historic-brownstone.html">
+    <span class="status">For Sale</span>
+    <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb" alt="Historic Brownstone">
+  </a>
+  <div class="property-body">
+    <h3><a href="historic-brownstone.html">Historic Brownstone</a></h3>
+    <p class="price">₹12,50,00,000</p>
+    <p class="meta">5 bd &middot; 4 ba &middot; 4120 sqft</p>
+    <p class="location">152 Altamount Road, Mumbai, MH</p>
+    <div class="property-actions">
+      <a class="btn secondary" href="historic-brownstone.html">View details</a>
+    </div>
+  </div>
+</article>
+    
+      <article class="property-card">
+  <a class="property-image" href="sunset-villa.html">
+    <span class="status">For Sale</span>
+    <img src="https://images.unsplash.com/photo-1505692952058-987968e27675" alt="Sunset Villa">
+  </a>
+  <div class="property-body">
+    <h3><a href="sunset-villa.html">Sunset Villa</a></h3>
+    <p class="price">₹7,80,00,000</p>
+    <p class="meta">4 bd &middot; 3.5 ba &middot; 3280 sqft</p>
+    <p class="location">18 Carter Road, Bandra West, Mumbai, MH</p>
+    <div class="property-actions">
+      <a class="btn secondary" href="sunset-villa.html">View details</a>
+    </div>
+  </div>
+</article>
+    
+      <article class="property-card">
+  <a class="property-image" href="lakeside-retreat.html">
+    <span class="status">For Sale</span>
+    <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6" alt="Lakeside Retreat">
+  </a>
+  <div class="property-body">
+    <h3><a href="lakeside-retreat.html">Lakeside Retreat</a></h3>
+    <p class="price">₹9,90,00,000</p>
+    <p class="meta">3 bd &middot; 2.5 ba &middot; 2480 sqft</p>
+    <p class="location">77 Worli Sea Face, Mumbai, MH</p>
+    <div class="property-actions">
+      <a class="btn secondary" href="lakeside-retreat.html">View details</a>
+    </div>
+  </div>
+</article>
+    
+      <article class="property-card">
+  <a class="property-image" href="urban-loft.html">
+    <span class="status">For Sale</span>
+    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85" alt="Downtown Urban Loft">
+  </a>
+  <div class="property-body">
+    <h3><a href="urban-loft.html">Downtown Urban Loft</a></h3>
+    <p class="price">₹4,25,00,000</p>
+    <p class="meta">2 bd &middot; 2 ba &middot; 1560 sqft</p>
+    <p class="location">240 Senapati Bapat Marg, Unit 702, Mumbai, MH</p>
+    <div class="property-actions">
+      <a class="btn secondary" href="urban-loft.html">View details</a>
+    </div>
+  </div>
+</article>
+    
+      <article class="property-card">
+  <a class="property-image" href="suburban-haven.html">
+    <span class="status">Under Contract</span>
+    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be" alt="Suburban Haven">
+  </a>
+  <div class="property-body">
+    <h3><a href="suburban-haven.html">Suburban Haven</a></h3>
+    <p class="price">₹3,60,00,000</p>
+    <p class="meta">4 bd &middot; 3 ba &middot; 2890 sqft</p>
+    <p class="location">412 Lokhandwala Road, Mumbai, MH</p>
+    <div class="property-actions">
+      <a class="btn secondary" href="suburban-haven.html">View details</a>
+    </div>
+  </div>
+</article>
+    
+      <article class="property-card">
+  <a class="property-image" href="mountain-cabin.html">
+    <span class="status">For Sale</span>
+    <img src="https://images.unsplash.com/photo-1505691723518-36a5ac3be353" alt="Evergreen Mountain Cabin">
+  </a>
+  <div class="property-body">
+    <h3><a href="mountain-cabin.html">Evergreen Mountain Cabin</a></h3>
+    <p class="price">₹2,80,00,000</p>
+    <p class="meta">3 bd &middot; 2 ba &middot; 1780 sqft</p>
+    <p class="location">909 Aarey Milk Colony Road, Mumbai, MH</p>
+    <div class="property-actions">
+      <a class="btn secondary" href="mountain-cabin.html">View details</a>
+    </div>
+  </div>
+</article>
+    
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <h3>GunthaHomes</h3>
+        <p>Helping buyers and sellers navigate the real estate market with confidence.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>Bldg no. 43, Swastik Platinum<br>44 &amp; 45 Tagore Nagar Rd, Vikhroli East<br>Mumbai, Maharashtra 400083, India</p>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="mailto:sales.gunthahomes@gmail.com">sales.gunthahomes@gmail.com</a></li>
+          <li><a href="tel:+14155551212">(415) 555-1212</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-note">&copy; 2025 GunthaHomes. All rights reserved.</div>
+  </footer>
+
+  
+</body>
+</html>
